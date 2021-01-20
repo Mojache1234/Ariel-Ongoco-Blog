@@ -1,4 +1,4 @@
-$('a[href*="#"').on('click', function(e){
+$('a[href*="/Ariel-Ongoco-Blog/#"').on('click', function(e){
     if (
         location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
         &&
